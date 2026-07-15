@@ -25,7 +25,13 @@ assets:
   - {seq: 0, role: markers, filename: assets/KR6n0112_000-T.markers.yaml, hash: 'sha256:994b207bdfeaa36623f89c49fe06e48b3e93378727efe5bd0b0bb3fa5750dff6'}
   - {seq: 1, role: markers, filename: assets/KR6n0112_001-T.markers.yaml, hash: 'sha256:0a26b3d05e17e4a6053128a9c2bccdb11d83b111802ca9532261b5a129212046'}
 table_of_contents:
-- ref: {seq: 1, marker_id: KR6n0112_T_001-juan-start, span: [body, 0, 914]}
+- ref:
+    seq: 1
+    marker_id: KR6n0112_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 914
   label: 觀所緣緣論
   type: juan
   level: 1
